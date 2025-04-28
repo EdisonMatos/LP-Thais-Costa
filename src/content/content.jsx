@@ -112,7 +112,7 @@ const content = {
       ),
       subtitle:
         "De dúvidas e incertezas à soluções sólidas. Uma jornada jurídica com presença e resultado.",
-      heroImgPhone: heroImgPhone,
+      heroImgPhone: heroImgPhone, 
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
@@ -417,7 +417,7 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. THAIS COSTA",
+      miniTag: "QUEM É A DRA. THAÍS COSTA",
       title: "Minha trajetória",
       subtitle:
         "Excelência com proximidade, clareza e total dedicação ao cliente",
