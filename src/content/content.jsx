@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
-import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
-// import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
+import logo from "../assets/imgs/logo/logo.webp";
+import heroImgPhone from "../assets/imgs/hero/personImg.webp";
+import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 // import personImg from "../assets/imgs/hero/edvaldo.png";
 // import personImgPhone from "../assets/imgs/hero/edvaldo.png";
 
@@ -107,12 +107,16 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Exclusividade
-          <span className="text-primary"> em cada detalhe jurídico</span>
+          <span className="text-primary"> em cada detalhe </span>jurídico
         </h1>
       ),
       subtitle:
         "De dúvidas e incertezas à soluções sólidas. Uma jornada jurídica com presença e resultado.",
-      heroImg: heroImg,
+      heroImgPhone: heroImgPhone, 
+      heroDesktop: heroImgDesktop, //bg com foto da pessoa
+      heroImg: bgHeroImg, //fundo da Hero
+      heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
+      backgroundPerson: backgroundPersonMobile,
       ctaButtonText: "Agende sua consulta",
       obsHero: {
         icon: (
@@ -413,7 +417,7 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. THAIS COSTA",
+      miniTag: "QUEM É A DRA. THAÍS COSTA",
       title: "Minha trajetória",
       subtitle:
         "Excelência com proximidade, clareza e total dedicação ao cliente",
@@ -469,7 +473,8 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
-        subtitle: "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         labelInstagram: "Siga-me no Instagram",
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
