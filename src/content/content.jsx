@@ -107,12 +107,12 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Exclusividade
-          <span className="text-primary"> em cada detalhe jurídico</span>
+          <span className="text-primary"> em cada detalhe </span>jurídico
         </h1>
       ),
       subtitle:
         "De dúvidas e incertezas à soluções sólidas. Uma jornada jurídica com presença e resultado.",
-      heroImgPhone: heroImgPhone, 
+      heroImgPhone: heroImgPhone,
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
