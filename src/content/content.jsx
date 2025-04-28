@@ -1,9 +1,9 @@
 import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
-import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
-// import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
+import heroImgPhone from "../assets/imgs/hero/personImg.png";
+import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -112,7 +112,11 @@ const content = {
       ),
       subtitle:
         "De dúvidas e incertezas à soluções sólidas. Uma jornada jurídica com presença e resultado.",
-      heroImg: heroImg,
+      heroImgPhone: heroImgPhone, 
+      heroDesktop: heroImgDesktop, //bg com foto da pessoa
+      heroImg: bgHeroImg, //fundo da Hero
+      heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
+      backgroundPerson: backgroundPersonMobile,
       ctaButtonText: "Agende sua consulta",
       obsHero: {
         icon: (
@@ -469,7 +473,8 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
-        subtitle: "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         labelInstagram: "Siga-me no Instagram",
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
